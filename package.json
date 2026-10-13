@@ -60,12 +60,12 @@
     "prepublishOnly": "npm test && npm run build"
   },
   "peerDependencies": {
-    "rawstate": "^1.0.0"
+    "rawstate-core": "^1.0.0"
   },
   "devDependencies": {
     "@types/jest": "^30",
     "fake-indexeddb": "^6",
-    "rawstate": "link:../rawstate-core",
+    "rawstate-core": "link:../rawstate-core",
     "jest": "^30",
     "ts-jest": "^29",
     "tsup": "^8.5.1",

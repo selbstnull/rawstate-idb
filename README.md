@@ -4,16 +4,16 @@
 [![gzip size](https://img.shields.io/bundlephobia/minzip/rawstate-idb?label=gzip)](https://bundlephobia.com/package/rawstate-idb)
 [![license](https://img.shields.io/npm/l/rawstate-idb?color=informational)](LICENSE)
 
-Keeps a [rawstate](https://www.npmjs.com/package/rawstate) store in IndexedDB: the saved data is loaded at start, every change is written, and tabs keep each other up to date. IndexedDB here is a **cache of the server**: the app shows the saved data at once and the server data comes on top of it. **About 3 KB gzipped, no dependencies** (`rawstate` is a peer dependency).
+Keeps a [rawstate](https://www.npmjs.com/package/rawstate-core) store in IndexedDB: the saved data is loaded at start, every change is written, and tabs keep each other up to date. IndexedDB here is a **cache of the server**: the app shows the saved data at once and the server data comes on top of it. **About 3 KB gzipped, no dependencies** (`rawstate-core` is a peer dependency).
 
 ```
-npm i rawstate rawstate-idb
+npm i rawstate-core rawstate-idb
 ```
 
 ## Usage
 
 ```ts
-import { createCollection, createSlice, createStore } from "rawstate";
+import { createCollection, createSlice, createStore } from "rawstate-core";
 import { persistStore } from "rawstate-idb";
 
 const users = createCollection<User>()({ key: "id" });

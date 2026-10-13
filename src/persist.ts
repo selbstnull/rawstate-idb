@@ -10,7 +10,7 @@ import {
   type StoreChanges,
   type StoreSnapshot,
   type TransactionDefs,
-} from "rawstate";
+} from "rawstate-core";
 import type { StorageAdapter, StorageRecord, WriteBatch } from "./adapter";
 import { idbAdapter } from "./idb";
 import { memoryAdapter } from "./memory";

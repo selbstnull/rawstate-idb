@@ -1,4 +1,4 @@
-import { createCollection, createSlice, createStore } from "rawstate";
+import { createCollection, createSlice, createStore } from "rawstate-core";
 import { z } from "zod";
 import { createMemoryStorage, memoryAdapter } from "../memory";
 import { persistStore } from "../persist";

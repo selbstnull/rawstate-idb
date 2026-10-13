@@ -5,7 +5,7 @@ import {
   createStore,
   increment,
   relation,
-} from "rawstate";
+} from "rawstate-core";
 import type { StorageAdapter } from "../adapter";
 import { createMemoryStorage, memoryAdapter } from "../memory";
 import { persistStore, type Persistence } from "../persist";
