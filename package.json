@@ -1,6 +1,6 @@
 {
   "name": "rawstate-idb",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Saves a rawstate store to IndexedDB, loads it at start and keeps browser tabs in sync. Atomic writes, versions and migrations. About 3 KB gzipped.",
   "keywords": [
     "indexeddb",
@@ -60,7 +60,7 @@
     "prepublishOnly": "npm test && npm run build"
   },
   "peerDependencies": {
-    "rawstate": "^0.1.0"
+    "rawstate": "^1.0.0"
   },
   "devDependencies": {
     "@types/jest": "^30",

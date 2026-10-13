@@ -1,8 +1,8 @@
 # Changelog
 
-## 0.1.0
+## 1.0.0
 
-The first release.
+The first public release. It needs `rawstate` 1.x (a peer dependency). From here the API follows [semantic versioning](https://semver.org).
 
 - `persistStore(store, options)`: saves the chosen collections and slices to IndexedDB, loads them at start, writes changes in atomic batches.
 - Versions of the saved data and `migrate`; data that does not fit the store or its schemas is thrown away like any broken cache.
