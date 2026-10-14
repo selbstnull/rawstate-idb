@@ -10,6 +10,11 @@ Keeps a [rawstate](https://www.npmjs.com/package/rawstate-core) store in Indexed
 npm i rawstate-core rawstate-idb
 ```
 
+> **Support rawstate-idb.** It is free and made in spare time. If it saves you time, donations are what keep it going.
+> USDT (TRC-20): `TQbts9Bj1LZJQE8oGbSbo1Qg6R3Co2k8jX` ([details](DONATE.md))
+>
+> <img src="https://raw.githubusercontent.com/selbstnull/rawstate-idb/main/.github/donate-usdt-trc20.png" alt="USDT TRC-20 QR code" width="120">
+
 ## Usage
 
 ```ts
